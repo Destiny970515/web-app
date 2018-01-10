@@ -1,0 +1,37 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-25 18:25:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-04 17:37:47
+*/
+
+$mainColor:#D2364C;
+
+
+/* 默认样式 */
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+ul{
+  padding:0px;
+  margin:0px;
+  list-style: none;
+}
+/* 主色调 */
+.title-bgColor{
+  background: $mainColor;
+}
+/* 路由a标签样式 */
+.a{
+  text-decoration: none;
+  color:#000;
+}
+/* 主视图外边距 */
+.content-margin{
+  margin-top: 40px;
+  margin-bottom: 55px;
+}

@@ -1,0 +1,91 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-27 13:41:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-05 17:47:10
+*/
+
+//定义变量
+$Phone-width:40px;
+
+/* 头部header */
+.header{
+  height: 40px;
+  background: #D2364C;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1;
+  padding:0 5px;
+}
+.header-flex{
+  display: flex;
+  justify-content: space-between;
+  height:100%;
+}
+.header-left,.header-right{
+  margin:5px 0;
+  width: $Phone-width;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-left{
+  margin-right:5px;
+}
+.header-right{
+  margin-left:5px;
+}
+.header-left span,.header-right span{
+  font-size:6px;
+  color:#fff;
+}
+.header-icon{
+  display:block;
+  width:25px;
+  height:20px;
+  /* margin-bottom:2px; */
+}
+.input-search{
+  opacity: .4;
+  background: #fff;
+  border-radius:50px;
+  border:0;
+  width:100%;
+  padding: 0 30px;
+  height: 100%;
+  color:#000;
+}
+.input-box{
+  width: 100%;
+  margin:5px 0;
+  height: 30px;
+  position: relative;
+}
+.camera,.search{
+  width: 30px;
+  height: 30px;
+  /* background: red; */
+  z-index: 1;
+}
+.camera{
+  position: absolute;
+  top:0px;
+  right: 0px;
+}
+.search{
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+.camera img{
+  width:20px;
+  height:20px;
+  margin: 5px;
+}
+.search img{
+  width:20px;
+  height:20px;
+  margin: 5px;
+}

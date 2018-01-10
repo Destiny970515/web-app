@@ -1,0 +1,110 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-25 18:16:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-08 17:25:21
+*/
+
+/* 轮播图样式 */
+.page-swipe .mint-swipe {
+  height: 150px;
+  vertical-align:middle;
+}
+.page-swipe .mint-swipe-item {
+  line-height: 150px;
+}
+.page-swipe .slide1 img{
+  height:100%;
+  width: 100%;
+}
+.page-swipe .slide2 img{
+  width: 100%;
+  height:100%;
+}
+.page-swipe .slide3 img{
+  width: 100%;
+  height:100%;
+}
+.page-swipe .slide4 img{
+  width: 100%;
+  height:100%;
+}
+.page-swipe-desc {
+  text-align: center;
+  color: #666;
+  margin-bottom: 5px;
+}
+/* 图标功能 */
+.icon-box{
+  padding-top:5px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.icon-box a{
+  width:20%;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:5px;
+}
+.icon-style{
+  display: block;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 5px;
+}
+.icon-span{
+  font-size: 12px;
+}
+/* 今日推介 */
+
+.today-new{
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+}
+.today-icon{
+  width:60px;
+  height:60px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.today-icon img{
+  height:60px;
+}
+.anim{
+  transition: all .5s;
+  margin-top: -60px;
+}
+#con1{
+  width: 100%;
+}
+.today-box{
+  display:flex;
+  /* width:70%; */
+  height: 60px;
+}
+.today-text{
+  width:100%;
+}
+.today-text>p{
+  height: 30px;
+  margin: 0;
+  overflow:hidden;
+  line-height: 30px;
+  font-size:12px;
+}
+.today-photo{
+  /* width:25%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.today-photo img{
+  margin: 5px;
+  width:70px;
+  height: 50px;
+}
