@@ -3,24 +3,20 @@
 * @Author: Marte
 * @Date:   2017-12-25 18:25:30
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-01-04 17:37:47
+* @Last Modified time: 2018-01-11 22:30:15
 */
 /* 默认样式 */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  padding: 0px;
-  margin: 0px;
+/* ul{
+  padding:0px;
+  margin:0px;
   list-style: none;
-}
-
+} */
 /* 主色调 */
 .title-bgColor {
   background: #D2364C;

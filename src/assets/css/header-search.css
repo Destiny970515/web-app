@@ -3,7 +3,7 @@
 * @Author: Marte
 * @Date:   2017-12-27 13:41:21
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-01-05 17:47:10
+* @Last Modified time: 2018-01-11 14:00:04
 */
 /* 头部header */
 .header {
@@ -40,7 +40,7 @@
 }
 
 .header-left span, .header-right span {
-  font-size: 6px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -48,7 +48,7 @@
   display: block;
   width: 25px;
   height: 20px;
-  /* margin-bottom:2px; */
+  margin-bottom: 2px;
 }
 
 .input-search {

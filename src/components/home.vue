@@ -63,6 +63,28 @@
         </div>
       </a>
     </div>
+    <!--商品种类-->
+    <div class="shop-type">
+      <a v-for="(type,key) in shop_type" class="shop-box" >
+        <div class="shop-left">
+          <!--文字-->
+          <div class="shop-left-p">
+            <p :class="'color'+key">{{type.title}}</p>
+            <p>{{type.text}}</p>
+          </div>
+          <!--图片-->
+          <div class="shop-left-img">
+            <img :src="type.img1">
+          </div>
+        </div>
+        <div class="shop-right">
+          <!--图片-->
+          <div class="shop-right-img">
+            <img :src="type.img2">
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
 </template>
 <script>
@@ -86,6 +108,21 @@
   import today01 from "../assets/images/today_01.png"
   import today02 from "../assets/images/today_02.jpg"
   import today03 from "../assets/images/today_03.jpg"
+  //引入商品种类图片
+  import shop_app from "../assets/images/shop_apple.jpg";
+  import shop_biscuit from "../assets/images/shop_biscuit.jpg";
+  import shop_cherry from "../assets/images/shop_cherry.jpg";
+  import shop_chestnuts from "../assets/images/shop_chestnuts.png";
+  import shop_chestnuts_2 from "../assets/images/shop_chestnuts_2.png";
+  import shop_chocolate from "../assets/images/shop_chocolate.jpg";
+  import shop_hawthorn from "../assets/images/shop_hawthorn.jpg";
+  import shop_jinsha from "../assets/images/shop_jinsha.jpg";
+  import shop_longyan from "../assets/images/shop_longyan.jpg";
+  import shop_noodles from "../assets/images/shop_noodles.jpg";
+  import shop_orange from "../assets/images/shop_orange.jpg";
+  import shop_sausage from "../assets/images/shop_sausage.png";
+
+
     export default {
       name: "home",
       data(){
@@ -125,6 +162,44 @@
               new:"贾乃亮终于忍不住了，取消关注李小璐，网友：别想洗白了",
               photo:today03
             }
+          ],
+          shop_type:[//商品种类
+            {
+              title:"1元秒杀",
+              text:"限时抢50元卷",
+              img1:shop_app,
+              img2:shop_biscuit
+            },
+            {
+              title:"有好货",
+              text:"高颜值美物",
+              img1:shop_cherry,
+              img2:shop_chestnuts
+            },
+            {
+              title:"悦吉抢购",
+              text:"火热抢购中",
+              img1:shop_chestnuts_2,
+              img2:shop_chocolate
+            },
+            {
+              title:"必买清单",
+              text:"帮你整理好",
+              img1:shop_hawthorn,
+              img2:shop_jinsha
+            },
+            {
+              title:"爱逛街",
+              text:"戳此马上变美",
+              img1:shop_longyan,
+              img2:shop_noodles
+            },
+            {
+              title:"悦商品",
+              text:"点击马上购",
+              img1:shop_orange,
+              img2:shop_sausage
+            },
           ]
         }
       },

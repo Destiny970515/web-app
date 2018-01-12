@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-12-25 18:16:03
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-01-08 17:25:21
+* @Last Modified time: 2018-01-12 17:15:10
 */
 
 /* 轮播图样式 */
@@ -107,4 +107,74 @@
   margin: 5px;
   width:70px;
   height: 50px;
+}
+/* 商品种类 */
+.shop-type{
+  width:100%;
+  /* background:#000; */
+  height:360px;
+  margin-top:5px;
+  display:flex;
+  flex-wrap:wrap;
+}
+.shop-box{
+  width:50%;
+  display:flex;
+  height:120px;
+}
+.shop-left{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.shop-left-p{
+  padding-left:5px;
+  /* font-size:12px; */
+  /* text-align:center; */
+
+}
+.shop-left-p p{
+  width:100%;
+  height:20px;
+  line-height:20px;
+  overflow:hidden;
+}
+.shop-left-p p:first-child{
+  font-size:16px;
+  color:#ff7400;
+}
+.shop-left-p p:last-child{
+  font-size:12px;
+  color:#999;
+}
+.shop-left-img{
+  width:70px;
+  height:80px;
+  display:flex;
+  flex-direction:column-reverse;
+  /* margin:0 auto; */
+}
+.shop-left-img img{
+  max-width:100%;
+}
+.shop-right{
+  width:50%;
+  height:100%;
+
+}
+.shop-right-img{
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:column-reverse;
+  align-items:center;
+}
+.shop-right-img img{
+  max-height:100%;
+  max-width:100%;
+  padding-right:5px;
+}
+.shop-type:first-child.shop-box .shop-left .shop-left-p p{
+  color:#fff;
 }
