@@ -85,6 +85,55 @@
         </div>
       </a>
     </div>
+    <!--分割-->
+    <div class="division"></div>
+    <!--猜你喜欢-->
+    <div class="maybe-love">
+      <!--头部-->
+      <div class="maybe-title">
+        <div class="maybe-title-box">
+          <!--icon_喜欢-->
+          <div class="maybe-title-icon">
+            <img src="../assets/images/maybe_love.png">
+          </div>
+          <!--文字-->
+          <p>猜你喜欢</p>
+        </div>
+      </div>
+      <!--主体-->
+      <div class="maybe-main">
+        <!--商品-->
+        <a class="maybe-shoplist-box" v-for="maybe in maybe_love">
+          <!--图片盒子-->
+          <div class="maybe-shoplist-ph">
+            <!--商品图片-->
+            <div class="shoplist-ph">
+              <img :src="maybe.img">
+            </div>
+          </div>
+          <!--价格盒子-->
+          <div class="maybe-shoplist-price">
+            <!--商品信息-->
+            <div class="shoplist-message">
+              <p>{{maybe.title}}</p>
+            </div>
+            <!--价格-->
+            <div class="shoplist-pricebox">
+             <div>
+               <!--钱-->
+               <span class="shoplist-price">¥{{maybe.price}}</span>
+               <!--购买数-->
+               <span class="shoplist-buy">{{maybe.payment}}人付款</span>
+             </div>
+              <!--商品功能键-->
+              <a class="shoplist-function">
+                <img src="../assets/images/other.png">
+              </a>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -121,7 +170,27 @@
   import shop_noodles from "../assets/images/shop_noodles.jpg";
   import shop_orange from "../assets/images/shop_orange.jpg";
   import shop_sausage from "../assets/images/shop_sausage.png";
-
+  //引入猜你喜欢图片
+  import CartoonCake from "../assets/images/maybe_CartoonCake.jpg";
+  import ChocolateCake from "../assets/images/maybe_ChocolateCake.jpg";
+  import CoconutCrisp from "../assets/images/maybe_CoconutCrisp.jpg";
+  import DarsChocolates from "../assets/images/maybe_DarsChocolates.jpg";
+  import GrapeJuice from "../assets/images/maybe_GrapeJuice.jpg";
+  import JapanChocolates from "../assets/images/maybe_JapanChocolates.jpg";
+  import liangpinChestnuts from "../assets/images/maybe_liangpinChestnuts.jpg";
+  import liangpinNutSnack from "../assets/images/maybe_liangpinNutSnack.jpg";
+  import Macaroon from "../assets/images/maybe_Macaroon.jpg";
+  import MangoPudding from "../assets/images/maybe_MangoPudding.jpg";
+  import NutSnack from "../assets/images/maybe_NutSnack.jpg";
+  import Oreo from "../assets/images/maybe_Oreo.jpg";
+  import PeanutMeat from "../assets/images/maybe_PeanutMeat.jpg";
+  import PotatoChips from "../assets/images/maybe_PotatoChips.jpg";
+  import Pudding from "../assets/images/maybe_Pudding.jpg";
+  import SmallCake from "../assets/images/maybe_SmallCake.jpg";
+  import SoftSuger from "../assets/images/maybe_SoftSuger.jpg";
+  import SugerBread from "../assets/images/maybe_SugerBread.jpg";
+  import Waffle from "../assets/images/maybe_Waffle.jpg";
+  import DoubleCake from "../assets/images/maybe_DoubleCake.jpg";
 
     export default {
       name: "home",
@@ -199,6 +268,128 @@
               text:"点击马上购",
               img1:shop_orange,
               img2:shop_sausage
+            },
+          ],
+          maybe_love:[//猜你喜欢
+            {
+              title:"【经典香橙卡通雪糕】经典美味 好吃又好玩",
+              price:20,
+              img:CartoonCake,
+              payment:658,
+            },
+            {
+              title:"【经典双色球雪糕】配士多俾梨 小孩子最爱",
+              price:28,
+              img:DoubleCake,
+              payment:863,
+            },
+            {
+              title:"法式马卡龙甜点6粒装礼盒食品情人节礼物",
+              price:80,
+              img:Macaroon,
+              payment:1635,
+            },
+            {
+              title:"芒果布丁150g 好吃又美味 零食小吃  儿童零食",
+              price:16,
+              img:MangoPudding,
+              payment:987,
+            },
+            {
+              title:"糖豆豆沙包1包300g 买一送一 0990后素小吃零食",
+              price:18,
+              img:SugerBread,
+              payment:1642,
+            },
+            {
+              title:"椰子芒果布丁 大人小孩都爱吃 布丁果冻 小孩子最爱",
+              price:19,
+              img:Pudding,
+              payment:1247,
+            },
+            {
+              title:"越南原装进口 泉记芝士牛奶椰子酥120g越南特产糕点心休闲零食 芝士牛奶口味",
+              price:35,
+              img:CoconutCrisp,
+              payment:365,
+            },
+            {
+              title:"韩国进口 海太蜂蜜黄油薯片 饼干碳烤薯条 休闲膨化零食品土豆脆片",
+              price:18,
+              img:PotatoChips,
+              payment:745,
+            },
+            {
+              title:"日本进口 crisp choco CISCO麦脆批巧克力 0990后素小吃零食",
+              price:99,
+              img:JapanChocolates,
+              payment:663,
+            },
+            {
+              title:"徐福记糖果橡皮糖果汁软糖1500g 结婚庆喜糖 橡皮QQ糖",
+              price:24,
+              img:SoftSuger,
+              payment:1243,
+            },
+            {
+              title:"【Morinaga/森永 DARS达诗白巧克力43.2g12粒 日本进口零食入口即化",
+              price:48,
+              img:DarsChocolates,
+              payment:842,
+            },
+            {
+              title:"韩国进口 九日牌加糖葡萄果汁饮料238ml",
+              price:22,
+              img:GrapeJuice,
+              payment:530,
+            },
+            {
+              title:"韩国进口饼干 好丽友奥利奥巧克力奶油夹心饼干66g一盒装",
+              price:14,
+              img:Oreo,
+              payment:439,
+            },
+            {
+              title:"【疆域吃货-多味花生米210g】休闲零食炒货特产 香辣花生豆",
+              price:21,
+              img:PeanutMeat,
+              payment:2463,
+            },
+            {
+              title:"三只松鼠旗舰店 开口东北松子 坚果零食 218g",
+              price:31,
+              img:NutSnack,
+              payment:1736,
+            },
+            {
+              title:"良品铺子东北手剥松子开口手拨红松干果坚果零食特产小吃袋装98g",
+              price:28,
+              img:liangpinNutSnack,
+              payment:1301,
+            },
+            {
+              title:"【良品铺子_甘栗仁100g】休闲零食坚果河北特产板栗栗子仁美栗",
+              price:16,
+              img:liangpinChestnuts,
+              payment:971,
+            },
+            {
+              title:"丹夫华夫饼原味720g软格子饼蛋糕 休闲零食早餐",
+              price:34,
+              img:Waffle,
+              payment:653,
+            },
+            {
+              title:"巧克力蛋糕免费包邮黑森林樱桃速递巧克力水果德士",
+              price:28,
+              img:ChocolateCake,
+              payment:430,
+            },
+            {
+              title:"cake21客上海杭州北京广州下午茶点零食甜点糕点西点茶歇小蛋糕",
+              price:19,
+              img:SmallCake,
+              payment:843,
             },
           ]
         }

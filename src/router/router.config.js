@@ -12,5 +12,5 @@ export default {
     {path:"/shop-cart",component:ShopCart},
     {path:"/people",component:People},
     {path:"/",component:Home}
-  ]
+  ],
 }
