@@ -3,10 +3,10 @@
     <!--home头部搜索-->
     <div class="header">
       <div class="header-flex">
-        <a class="header-left">
+        <router-link to="people" class="header-left">
           <img src="../assets/images/扫一扫.png" class="header-icon">
           <span>扫一扫</span>
-        </a>
+        </router-link>
         <div class="input-box">
           <span class="search">
             <img src="../assets/images/搜索.png">
@@ -16,10 +16,10 @@
             <img src="../assets/images/相机.png">
           </span>
         </div>
-        <a class="header-right">
+        <router-link to="people" class="header-right">
           <img src="../assets/images/会员码.png" class="header-icon">
           <span>会员码</span>
-        </a>
+        </router-link>
       </div>
     </div>
     <!--home轮播图-->
@@ -108,7 +108,8 @@
           <div class="maybe-shoplist-ph">
             <!--商品图片-->
             <div class="shoplist-ph">
-              <img :src="maybe.img">
+              <!--图片懒加载-->
+              <img v-lazy="maybe.img">
             </div>
           </div>
           <!--价格盒子-->
@@ -405,8 +406,9 @@
             this.items.shift();//删除数组的第一个元素
             this.animate=false;  // margin-top 为0 的时候取消过渡动画，实现无缝滚动
           },2000)
-        }
-      }
+        },
+      },
+
     }
 </script>
 

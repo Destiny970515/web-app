@@ -4,14 +4,15 @@
       <router-view></router-view>
     </div>
     <!--Tabbar-->
+
     <mt-tabbar v-model="selected" :fixed="true">
-      <mt-tab-item id="主页" to="home">
+      <mt-tab-item id="主页">
         <img slot="icon" src="./assets/images/home.png">
         <router-link to="home" class="a">主页</router-link>
       </mt-tab-item>
-      <mt-tab-item id="物流" to="logistics">
-        <img slot="icon" src="./assets/images/logistics.png">
-        <router-link to="logistics" class="a">物流</router-link>
+      <mt-tab-item id="消息">
+        <img slot="icon" src="./assets/images/news.png">
+        <router-link to="news" class="a">消息</router-link>
       </mt-tab-item>
       <mt-tab-item id="购物车">
         <img slot="icon" src="./assets/images/shopCart.png">
@@ -32,6 +33,7 @@
       return {
         selected:'主页',
         fixed:false,
+        go:""
       }
     }
   }

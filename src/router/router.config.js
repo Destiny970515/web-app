@@ -1,6 +1,6 @@
 //引入模板
 import Home from '../components/home';
-import Logistics from '../components/logistics';
+import News from '../components/news';
 import ShopCart from '../components/shopCart';
 import People from '../components/poeple';
 
@@ -8,7 +8,7 @@ import People from '../components/poeple';
 export default {
   routes:[
     {path:"/home",component:Home},
-    {path:"/logistics",component:Logistics},
+    {path:"/news",component:News},
     {path:"/shop-cart",component:ShopCart},
     {path:"/people",component:People},
     {path:"/",component:Home}
