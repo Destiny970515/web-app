@@ -8,125 +8,104 @@
 /* 轮播图样式 */
 .page-swipe .mint-swipe {
   height: 150px;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .page-swipe .mint-swipe-item {
-  line-height: 150px;
-}
+  line-height: 150px; }
 
 .page-swipe .slide1 img {
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 .page-swipe .slide2 img {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .page-swipe .slide3 img {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .page-swipe .slide4 img {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .page-swipe-desc {
   text-align: center;
   color: #666;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 /* 图标功能 */
 .icon-box {
   padding-top: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .icon-box a {
   width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 .icon-style {
   display: block;
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 .icon-span {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 /* 今日推介 */
 .today-new {
   height: 60px;
   overflow: hidden;
-  display: flex;
-}
+  display: flex; }
 
 .today-icon {
   width: 60px;
   height: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .today-icon img {
-  height: 60px;
-}
+  height: 60px; }
 
 .anim {
   transition: all .5s;
-  margin-top: -60px;
-}
+  margin-top: -60px; }
 
 #con1 {
-  width: 100%;
-}
+  width: 100%; }
 
 .today-box {
   display: flex;
   /* width:70%; */
-  height: 60px;
-}
+  height: 60px; }
 
 .today-text {
-  width: 100%;
-}
+  width: 100%; }
 
 .today-text > p {
   height: 30px;
   margin: 0;
   overflow: hidden;
   line-height: 30px;
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .today-photo {
   /* width:25%; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .today-photo img {
   margin: 5px;
   width: 70px;
-  height: 50px;
-}
+  height: 50px; }
 
 /* 商品种类 */
 .shop-type {
@@ -135,113 +114,93 @@
   height: 360px;
   margin-top: 5px;
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .shop-box {
   width: 50%;
   display: flex;
-  height: 120px;
-}
+  height: 120px; }
 
 .shop-left {
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .shop-left-p {
   padding-left: 5px;
   /* font-size:12px; */
-  /* text-align:center; */
-}
+  /* text-align:center; */ }
 
 .shop-left-p p {
   width: 100%;
   height: 20px;
   line-height: 20px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .shop-left-p p:first-child {
   font-size: 16px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .shop-left-p p:last-child {
   font-size: 12px;
-  color: #999;
-}
+  color: #999; }
 
 .shop-left-img {
   width: 70px;
   height: 80px;
   display: flex;
   flex-direction: column-reverse;
-  /* margin:0 auto; */
-}
+  /* margin:0 auto; */ }
 
 .shop-left-img img {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .shop-right {
   width: 50%;
-  height: 100%;
-}
+  height: 100%; }
 
 .shop-right-img {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;
-}
+  align-items: center; }
 
 .shop-right-img img {
   max-height: 100%;
   max-width: 100%;
-  padding-right: 5px;
-}
+  padding-right: 5px; }
 
 /* 商品种类颜色 */
 .color0 {
-  color: #ffaa00;
-}
+  color: #ffaa00; }
 
 .color1 {
-  color: #F87085;
-}
+  color: #F87085; }
 
 .color2 {
-  color: #7109AA;
-}
+  color: #7109AA; }
 
 .color3 {
-  color: #0C5DA5;
-}
+  color: #0C5DA5; }
 
 .color4 {
-  color: #00A383;
-}
+  color: #00A383; }
 
 .color5 {
-  color: #FF5640;
-}
+  color: #FF5640; }
 
 /* 猜你喜欢 */
 .maybe-love {
   width: 100%;
   max-height: 100%;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 .maybe-title {
   height: 30px;
   /* background-color:red; */
-  /* padding:5px 0; */
-}
+  /* padding:5px 0; */ }
 
 .maybe-title-box {
   width: 100px;
@@ -249,23 +208,19 @@
   margin: 0 auto;
   /* background-color:#fff; */
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .maybe-title-icon {
   width: 30px;
-  height: 30px;
-}
+  height: 30px; }
 
 .maybe-title-icon img {
-  max-height: 100%;
-}
+  max-height: 100%; }
 
 .maybe-title-box p {
   line-height: 30px;
   color: #D2364C;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* 猜你喜欢-主体 */
 .maybe-main {
@@ -273,8 +228,7 @@
   flex-wrap: wrap;
   background-color: #ddd;
   width: 100%;
-  max-height: 100%;
-}
+  max-height: 100%; }
 
 .maybe-shoplist-box {
   display: flex;
@@ -283,50 +237,42 @@
   height: 250px;
   /* background-color:#ddd; */
   padding-right: 2.5px;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 /* 匹配商品列表偶数的样式 */
 .maybe-shoplist-box:nth-child(even) {
   padding-right: 0;
-  padding-left: 2.5px;
-}
+  padding-left: 2.5px; }
 
 .maybe-shoplist-ph {
   width: 100%;
   height: 180px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .shoplist-ph {
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 .shoplist-ph img {
   width: 100%;
   height: 180px;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .maybe-shoplist-price {
   display: flex;
   flex-direction: column;
   height: 70px;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 .shoplist-message {
   margin-top: 5px;
   padding: 0 5px;
   height: 36px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .shoplist-message p {
   font-size: 13px;
-  /* text-align:center; */
-}
+  /* text-align:center; */ }
 
 .shoplist-pricebox {
   display: flex;
@@ -336,29 +282,24 @@
   margin: 5px 0;
   height: 20px;
   line-height: 20px;
-  padding: 0 5px;
-}
+  padding: 0 5px; }
 
 .shoplist-price {
   font-size: 16px;
   font-weight: bold;
-  color: #D2364C;
-}
+  color: #D2364C; }
 
 .shoplist-buy {
   font-size: 12px;
-  color: #999;
-}
+  color: #999; }
 
 .shoplist-function {
   line-height: 20px;
   width: 20px;
-  height: 20px;
-}
+  height: 20px; }
 
 .shoplist-function img {
-  max-height: 100%;
-}
+  max-height: 100%; }
 
 /* 图片懒加载 */
 /* image[lazy=loading] {

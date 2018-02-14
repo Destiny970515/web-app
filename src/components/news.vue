@@ -2,7 +2,7 @@
   <div>
     <!--news 头部-->
     <div class="news_header">
-      <p>消息</p>
+      <p>消息(0)</p>
     </div>
     <!--news icon图标功能-->
     <div class="news_main">

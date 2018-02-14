@@ -14,8 +14,7 @@
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: #D2364C;
-}
+  background-color: #D2364C; }
 
 .news_header p {
   /* width:100%; */
@@ -23,61 +22,52 @@
   line-height: 40px;
   color: #fff;
   font-size: 18px;
-  text-align: center;
-}
+  text-align: center; }
 
 /* news icon图标功能 */
 .news_main {
   height: 80px;
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .news_iconBox {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .news_iconBox img {
   width: 40px;
   height: 40px;
   display: block;
   border-radius: 50%;
-  margin: 8px 0;
-}
+  margin: 8px 0; }
 
 .news_iconBox span {
   font-size: 12px;
-  color: #333;
-}
+  color: #333; }
 
 /* 买家消息 */
 .news_Buyers {
   display: flex;
   flex-direction: column;
-  background-color: #ddd;
-}
+  background-color: #ddd; }
 
 .Buyers_box {
   display: flex;
   width: 100%;
   height: 50px;
   background-color: #fff;
-  margin-bottom: 1px;
-}
+  margin-bottom: 1px; }
 
 .Buyers_avatar {
   width: 40px;
   height: 40px;
-  margin: 5px;
-}
+  margin: 5px; }
 
 .Buyers_avatar img {
-  border-radius: 8px;
-}
+  border-radius: 8px; }
 
 .Buyers_message {
   width: 100%;
@@ -86,26 +76,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 5px;
-}
+  margin-right: 5px; }
 
 .Buyers_name {
   display: flex;
   justify-content: space-between;
-  /* margin-right:5px; */
-}
+  /* margin-right:5px; */ }
 
 .Buyers_name p {
   font-size: 14px;
-  color: #333;
-}
+  color: #333; }
 
 .Buyers_name span {
   /* margin-right:5px; */
   margin: auto 0;
   font-size: 10px;
-  color: #999;
-}
+  color: #999; }
 
 .Buyers_text p {
   width: 100%;
@@ -117,7 +103,6 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
-  /* 多行文本溢出部分显示省略号... */
-}
+  /* 多行文本溢出部分显示省略号... */ }
 
 /*# sourceMappingURL=news.css.map */

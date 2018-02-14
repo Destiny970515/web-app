@@ -3,38 +3,33 @@
 * @Author: Marte
 * @Date:   2017-12-25 18:25:30
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-02 21:08:51
+* @Last Modified time: 2018-02-12 11:39:45
 */
 /* 默认样式 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /* 主色调 */
 .title-bgColor {
-  background: #D2364C;
-}
+  background: #D2364C; }
 
 /* 路由a标签样式 */
 .a {
   text-decoration: none;
-  color: #000;
-}
+  color: #000; }
 
 /* 主视图外边距 */
 .content-margin {
   margin-top: 40px;
-  margin-bottom: 55px;
-}
+  margin-bottom: 55px; }
 
 /* 分割线 */
 .division {
   width: 100%;
-  height: 10px;
-  background-color: #ddd;
-}
+  height: 5px;
+  background-color: #ddd; }
 
 /*# sourceMappingURL=app.css.map */
